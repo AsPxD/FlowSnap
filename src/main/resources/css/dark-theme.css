@@ -1,0 +1,176 @@
+/* Dark theme for DFDiagram Generator */
+
+.root {
+    -fx-base: #3c3f41;
+    -fx-background: #2b2b2b;
+    -fx-control-inner-background: #2b2b2b;
+    -fx-accent: #4e9bcd;
+    -fx-focus-color: #4e9bcd;
+    -fx-faint-focus-color: #4e9bcd22;
+    -fx-default-button: #4e9bcd;
+}
+
+.label {
+    -fx-text-fill: #cccccc;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: #cccccc;
+    -fx-highlight-fill: #4e9bcd;
+    -fx-highlight-text-fill: #cccccc;
+    -fx-prompt-text-fill: #888888;
+}
+
+.button, .toggle-button, .check-box, .radio-button, .combo-box, .choice-box {
+    -fx-background-color: #4c5052;
+    -fx-text-fill: #cccccc;
+    -fx-border-color: #5e6060;
+}
+
+.button:hover, .toggle-button:hover {
+    -fx-background-color: #5c6164;
+}
+
+.button:pressed, .toggle-button:pressed, .toggle-button:selected {
+    -fx-background-color: #365880;
+}
+
+.scroll-pane, .split-pane {
+    -fx-background: #2b2b2b;
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #323232;
+}
+
+.viewport {
+    -fx-background-color: #2b2b2b;
+}
+
+.separator .line {
+    -fx-border-color: #4c5052;
+    -fx-border-width: 1px;
+}
+
+.context-menu {
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #5e6060;
+}
+
+.menu-item {
+    -fx-background-color: #3c3f41;
+}
+
+.menu-item:hover {
+    -fx-background-color: #4c5052;
+}
+
+.menu-item .label {
+    -fx-text-fill: #cccccc;
+}
+
+.dfd-canvas {
+    -fx-background-color: #2b2b2b;
+}
+
+.dfd-process {
+    -fx-fill: #3d5570;
+    -fx-stroke: #4e9bcd;
+}
+
+.dfd-data-store {
+    -fx-fill: #45494a;
+    -fx-stroke: #4e9bcd;
+}
+
+.dfd-external-entity {
+    -fx-fill: #4b5320;
+    -fx-stroke: #7c9c35;
+}
+
+.dfd-data-flow {
+    -fx-stroke: #cccccc;
+    -fx-stroke-width: 2px;
+}
+
+.dfd-data-flow-arrow {
+    -fx-fill: #cccccc;
+}
+
+.dfd-label {
+    -fx-text-fill: #cccccc;
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-background-color: #2b2b2b;
+    -fx-table-cell-border-color: #3c3f41;
+}
+
+.table-row-cell {
+    -fx-background-color: #2b2b2b;
+    -fx-table-cell-border-color: #3c3f41;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #323232;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #4e9bcd;
+}
+
+.tab-pane {
+    -fx-background-color: #2b2b2b;
+}
+
+.tab {
+    -fx-background-color: #3c3f41;
+}
+
+.tab:selected {
+    -fx-background-color: #4e9bcd;
+}
+
+.progress-indicator, .progress-bar {
+    -fx-accent: #4e9bcd;
+}
+
+/* Grid lines for canvas */
+.grid-line {
+    -fx-stroke: #404040;
+}
+
+/* Status bar */
+.status-bar {
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #5e6060;
+    -fx-border-width: 1px 0 0 0;
+}
+
+/* Toolbar */
+.tool-bar {
+    -fx-background-color: linear-gradient(to bottom, #3c3f41, #2b2b2b);
+    -fx-border-color: #5e6060;
+    -fx-border-width: 0 0 1px 0;
+}
+
+/* Dialog styling */
+.dialog-pane {
+    -fx-background-color: #2b2b2b;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #3c3f41;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: #cccccc;
+}
+
+.dialog-pane .content {
+    -fx-background-color: #2b2b2b;
+}
+
+.dialog-pane .button-bar {
+    -fx-background-color: #2b2b2b;
+} 

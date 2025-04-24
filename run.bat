@@ -1,5 +1,5 @@
 @echo off
-echo Running Diagram Generator with ER, UML, and DFD support...
+echo Running FlowSnap - Advanced Diagram Generator...
 echo.
 mvn javafx:run
 pause 
